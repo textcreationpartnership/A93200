@@ -1,0 +1,452 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short catechisme for the instruction of the inhabitants of S.M. For the better preparation of the sacrament of the Lords-Supper. The first part.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1645</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A93200</idno>
+            <idno type="STC">Wing S3571</idno>
+            <idno type="STC">Thomason E1185_4</idno>
+            <idno type="STC">ESTC R208210</idno>
+            <idno type="EEBO-CITATION">99867180</idno>
+            <idno type="PROQUEST">99867180</idno>
+            <idno type="VID">119477</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A93200)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 119477)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 167:E1185[4])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short catechisme for the instruction of the inhabitants of S.M. For the better preparation of the sacrament of the Lords-Supper. The first part.</title>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by I.F. for Ralph Smith, and are to be sold at the signe of the Bible in Cornhill, near the Royall-Exchange,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1645.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "Aprill 30th".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Catechisms --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-08</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-08</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:119477:1" rendition="simple:additions"/>
+            <p>A ſhort CATECHISME FOR The Inſtruction of the Inhabitants of
+<hi>S. M.</hi> For the better Preparation of the Sacrament of the LORDS-SUPPER.</p>
+            <p>
+               <hi>The firſt Part.</hi>
+            </p>
+            <p>LONDON: Printed by <hi>I. F.</hi> for <hi>Ralph Smith,</hi> and are to be ſold at the ſigne of the Bible in Cornhill, near the Royall-Exchange. 1645.</p>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb facs="tcp:119477:2"/>
+            <pb facs="tcp:119477:2"/>
+            <head>A ſhort Catechiſme.</head>
+            <p>Queſt. <hi>HOw did God make man?</hi>
+            </p>
+            <p>
+               <hi>Anſw.</hi> After his own Image, <hi>Gen.</hi> 1.27.</p>
+            <p>Q <hi>What is the Image of God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The Image of God is a reſemblance of his holineſſe and righteouſneſſe, and his other attributes created in man, <hi>Gen.</hi> 1.27. compared with <hi>Pſal.</hi> 145.7. <hi>Exod.</hi>
+34.6. <hi>Eccleſ.</hi> 7.29. <hi>Eph.</hi> 4.24. <hi>Col.</hi> 3.10.</p>
+            <p>Q. <hi>Did man continue in this Image?</hi>
+            </p>
+            <p>
+               <hi>A,</hi> No: <hi>Adam</hi> loſt it for himſelf, and all us, in eating the forbidden fruit.</p>
+            <p>Q <hi>How came we to loſe this image by his ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, becauſe <hi>Adam</hi> was a publike per<g ref="char:EOLhyphen"/>ſon, and we being in his loynes, his ſin was im<g ref="char:EOLhyphen"/>puted to us,
+<hi>Rom.</hi> 5 12.19. and ſo we were all accounted ſinners in his offence.</p>
+            <p>Secondly, the ſeparation of the image of God, being the ſpirituall death, happened un<g ref="char:EOLhyphen"/>to all men by him; becauſe all men were ac<g ref="char:EOLhyphen"/>counted ſinners in him, <hi>Rom.</hi> 5 12.14.16,17,18.</p>
+            <p>Q. <hi>What followed up on the loſſe of this Image?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, we are all born without this image.</p>
+            <p>Secondly, we are therefore born in ſin, and conceived in iniquity, <hi>Pſal.</hi> 51.5.</p>
+            <p>Becauſe being born with power to think, ſpeak, and do; and wanting this image, which ſhould teach, or guide us to think, ſpeak, and do aright, we muſt needs ſin in all theſe.</p>
+            <p>Q. <hi>How many kindes of ſin is there?</hi>
+            </p>
+            <p>
+               <pb facs="tcp:119477:3"/>
+               <hi>A.</hi> Two, Originall, and Actuall.</p>
+            <p>Q. <hi>What is Originall ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Originall ſin is an inclination of the whole man to all evill, and that continually, <hi>Gen.</hi> 6.5.</p>
+            <p>Q. <hi>What is Actuall ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Actuall, is a breach of the Law of God, in thought, word or deed, 1 Io. 3.4. <hi>Pr.</hi> 24 9. <hi>Mat.</hi> 12</p>
+            <p>Q. <hi>How do we break the Law of God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We break the Law of God, when we do thoſe things which God hath forbidden, and leave undone thoſe things which God hath commanded, <hi>Rom.</hi> 7.19.</p>
+            <p>Q. <hi>What are the wages of ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The wages of ſin is eternal death, <hi>Ro.</hi>
+6.23.</p>
+            <p>Q. <hi>Is there no way to avoid this death?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> There is no way for a ſinner to eſcape e<g ref="char:EOLhyphen"/>ternall death, but only by Ieſus Chriſt, <hi>Act.</hi> 4.12.</p>
+            <p>Q. <hi>What hath Chriſt ſuffered for us?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, Ieſus Chriſt hath born our ſins, 1
+<hi>Pet.</hi> 2.24. <hi>Heb.</hi> 9.28. 2 <hi>Cor.</hi> 5.21. Secondly, he hath ſuffered the wrath of God due to us for ſin, 1 <hi>Pet.</hi> 3.18. 1
+<hi>Cor.</hi> 15.3.</p>
+            <p>Q. <hi>What hath Chriſt done for us.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, he hath fulfilled the Law, which we ought to have kept, <hi>Mat.</hi> 5.17,18. <hi>Rom.</hi> 10.5. Secondly, he hath merited a Crown of righte<g ref="char:EOLhyphen"/>ouſneſſe by fulfilling that Law, <hi>Phil.</hi> 2.9.
+<hi>Heb.</hi> 2.9. <hi>Heb.</hi> 12.2.</p>
+            <p>Q. <hi>What benefit have we by his ſufferings!</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He will not impute thoſe fins to us which<pb facs="tcp:119477:3"/>he hath born, 2 <hi>Cor.</hi> 5.19. Nor lay that wrath upon us, which he hath ſuffered, <hi>Rom.</hi> 5.9. 1 <hi>Theſ.</hi> 1.10.</p>
+            <p>Q. <hi>What benefit have we by his doings?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, God will impute his righteouſeneſſe to us in fulfilling the Law, <hi>Rom.</hi> 5.10. <hi>Rom.</hi> 10.5. Secondly, he will give us his Crown of glory, which his Son hath merited by his righteouſ<g ref="char:EOLhyphen"/>neſſe, <hi>Joh.</hi> 17.22. <hi>Col.</hi> 3.4. <hi>Heb.</hi>
+9.24. <hi>Ioh.</hi> 1.32.</p>
+            <p>Q. <hi>What be the main priviledges we have by Chriſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, we are juſtified freely by his grace,
+<hi>Act.</hi> 13.39. <hi>Rom.</hi> 3.24. Secondly, we are ſancti<g ref="char:EOLhyphen"/>fied by his ſpirit, 1 <hi>Theſ.</hi> 5.23. And the image we loſt in <hi>Adam,</hi> is reſtored in Ieſus Chriſt, <hi>Rom.</hi> 8.28. 1 <hi>Cor.</hi> 15.49. Thirdly, we are adop<g ref="char:EOLhyphen"/>ted and made the ſons of God, 1 <hi>Ioh.</hi> 1.12.
+<hi>Gal.</hi> 3.26. Fourthly, all the promiſes be made, Yea, and Amen, to us in Chriſt, 2 <hi>Cor.</hi> 1.20. <hi>Heb.</hi> 9.15.</p>
+            <p>Q. <hi>Can any man live without ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No: For the moſt righteous man that is, ſins in many things, <hi>Iam.</hi> 3.2. <hi>Eccleſ.</hi> 7.20. 1 <hi>King.</hi>
+8.46.</p>
+            <p>Q. <hi>What muſt we do to avoid the danger of ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, when we have committed any ſins, we muſt confeſſe them to God, <hi>Ier.</hi> 3.13. Se<g ref="char:EOLhyphen"/>condly, we muſt judge our ſelves for them. Thirdly, we muſt mourn and repent of them, <hi>Iam.</hi>
+4.9. <hi>Mat.</hi> 3.2. Fourthly, we muſt humble our ſelves before God for them, <hi>Iames</hi> 4.10<pb facs="tcp:119477:4"/>Fiftly, we muſt reſolve and endeavour to leave them, <hi>Iſa.</hi> 1.16. 1 <hi>Pet.</hi> 2.11. Sixthly, We muſt fight againſt them, and labour to mor<g ref="char:EOLhyphen"/>tifie them, 1 <hi>Tim.</hi> 6.12.
+<hi>Col.</hi> 3.5. Seventhly, we muſt pray to God to forgive them, and give us power againſt them, for Ieſus Chriſt his ſake, <hi>Hoſ.</hi> 14.2.
+<hi>Rom.</hi> 6.14. Laſtly, we muſt labour to hate and abhorre them,
+<hi>Pro.</hi> 8.13. <hi>Pſal.</hi> 97.10. <hi>Pſal.</hi> 119.104.
+<hi>Pro.</hi> 13.5.</p>
+            <p>Q <hi>What will the Lord do for a ſinner that takes this courſe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, if we confeſſe our ſins, he hath pro<g ref="char:EOLhyphen"/>miſed to ſhew mercy, and to forgive them, <hi>Pro.</hi> 28.13. 1
+<hi>Ioh.</hi> 1.9. Secondly, if we judge our ſelves for our ſins, he hath ſaid, we ſhal not be judged, 1 <hi>Cor.</hi> 11.31. Thirdly, if we mourn, we ſhall be comforted, <hi>Mat.</hi> 5.4. <hi>Iſa.</hi> 61.3.
+<hi>Ezech.</hi> 9.4. If we repent, iniquity ſhall not be our ruine,
+<hi>Ezech.</hi> 18.30. Fourthly, if we humble our ſelves before God, he will ſave us, <hi>Iob</hi> 22.29. He will uphold us, <hi>Pro.</hi> 29.23. He will give us more grace, 1 <hi>Pet.</hi> 5.5. <hi>Iam.</hi> 4.6. <hi>Pro.</hi> 3.34. And he will dwell with us, <hi>Iſa.</hi> 57 15. Fiftly, if we forſake, and turn from our ſins, they ſhall not be our ruine, <hi>Ezech.</hi> 18.30. The Lord will pardon them, <hi>Iſa.</hi> 55.7. a<g ref="char:EOLhyphen"/>bundantly, ſo as they ſhall not be mentioned, and we ſhall ſave our ſoules alive, <hi>Ezech.</hi>
+18.21,22.27,28. Sixtly, if we fight the good fight, we ſhall have a crown of righteouſnes, 2 <hi>Tim.</hi> 4.7,8. Seventhly, if we humbly pray for pardon, and<pb facs="tcp:119477:4"/>power againſt ſin, he will forgive our ſins, and heal our ſouls, 2 <hi>Chro.</hi> 7.14. <hi>Pſal.</hi> 10.17.</p>
+            <p>Q. <hi>What elſe doth the Lord require?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Faith, <hi>Joh.</hi> 14.1. 1 <hi>Ioh.</hi> 3.23.</p>
+            <p>Q. <hi>How many ſorts of faith be there?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Three: Hiſtoricall faith, juſtifying faith, and faith of Aſſurance.</p>
+            <p>Q. <hi>What is hiſtoricall faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Hiſtoricall faith is a grace of God, wher<g ref="char:EOLhyphen"/>by we beleeve what ever is written in the Book of God to be true, 1 <hi>Cor.</hi>
+12.3. <hi>Ioh.</hi> 3.33. <hi>Ioh.</hi> 5.46.</p>
+            <p>Q. <hi>What is juſtifying faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Iuſtifying faith is a grace of God, where<g ref="char:EOLhyphen"/>by I reſt upon God in Ieſus Chriſt, to make good all his promiſes unto me,
+<hi>Iſa.</hi> 26.3. <hi>Ioh.</hi> 1.12. <hi>Iſa.</hi> 50.10. <hi>Iob</hi>
+13.15.</p>
+            <p>Q. <hi>Explaine this by an Example?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God ſaith, if we confeſſe our ſins, he will forgive, I have confeſſed my ſin to God (ſaith the beleever) and now I will reſt upon God to forgive and pardon.</p>
+            <p>Q. <hi>What is faith of aſſurance?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Faith of aſſurance is a grace of God, whereby I am fully perſwaded, that God in Chriſt wil make good all his promiſes unto me, 1 <hi>Ioh.</hi> 5.10. <hi>Eph.</hi> 1.13. 2 <hi>Tim.</hi> 1.12.
+<hi>Ro.</hi> 8.38. <hi>Ro.</hi> 4.21.</p>
+            <p>Q. <hi>What will the Lord do for a true Beleever?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He that hath true faith ſhall not periſh, but have everlaſting life, <hi>Ioh.</hi> 3.16. <hi>Hab.</hi> 2.1. <hi>Ioh.</hi> 11.26.
+1 <hi>Pet.</hi> 1.9.</p>
+            <p>
+               <pb facs="tcp:119477:5"/>Q. <hi>What elſe doth the Lord require?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The Lord requires that we ſhould obey all his commands, with all our whole might, and that continually, <hi>Deut.</hi> 10.12.
+<hi>Deut.</hi> 11.13. 1 <hi>Cor.</hi> 6.30. <hi>Luke</hi> 1.6. <hi>Ioh.</hi>
+8.29. <hi>Pſal.</hi> 119.6.112. <hi>Mat.</hi> 28.20. <hi>Deut.</hi>
+12.32.</p>
+            <p>Q. <hi>What if we come ſhort in this?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If there be firſt a willing minde, God will accept according to that a man hath, 2 <hi>Cor.</hi> 8.12. To him that hath ſhall be given: God will give more grace, <hi>Mar.</hi> 4.24. <hi>Mat.</hi> 13.12.</p>
+            <p>Q. <hi>How ſhall we know true faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, by cleaving unto God when he hides his face from us, <hi>Iſa.</hi> 8.17. <hi>Iob</hi> 13.15. <hi>Hab.</hi> 3.17,18.
+<hi>Rom.</hi> 4.18.</p>
+            <p>Secondly, by readineſſe to yeeld obedience to the Law of faith, <hi>Iam.</hi> 2.17.18.26.</p>
+            <p>Thirdly, by purifying the heart, <hi>Act.</hi> 15.9. 1
+<hi>Ioh.</hi> 3.3.</p>
+            <p>Fourthly, by love to God and his Saints, <hi>Gal.</hi> 5.6.</p>
+            <p>Q. <hi>How many Commandements be there?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Ten: which were at the firſt delivered by God,
+<hi>Exod.</hi> 20.</p>
+            <p>Q. <hi>Which be they?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I am the Lord, &amp;c.</p>
+            <p>Q. <hi>Is there any other commands?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> There be many other commands, where<g ref="char:EOLhyphen"/>by God forbiddeth us ſome things, and com<g ref="char:EOLhyphen"/>mands us to do other things, according to his
+<pb facs="tcp:119477:5"/>own good pleaſure, <hi>Mar.</hi> 28.20.</p>
+            <p>Q. <hi>What is a Sacrament?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> An outward viſible ſign, and ſeal appoin<g ref="char:EOLhyphen"/>ted by God to repreſent, and confirme a ſpiri<g ref="char:EOLhyphen"/>tuall Grace.</p>
+            <p>Q. <hi>How many Sacraments be there?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two, Baptiſme and the Supper of the Lord.</p>
+            <p>Q. <hi>What is the outward ſign in Baptiſme?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Water, wherewith, or wherein the party baptized is to be ſprinkled or dipped in the name of the Father, Son, and Holy Ghoſt.
+<hi>Mat.</hi> 28,19. <hi>Mar.</hi> 16.16.</p>
+            <p>Q. <hi>What is the inward grace ſignified, and ſea<g ref="char:EOLhyphen"/>led to us by Baptiſme?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, by this we are made viſible Mem<g ref="char:EOLhyphen"/>bers of the viſible Church of Chriſt, 1 <hi>Cor.</hi> 12.13. <hi>Act.</hi> 2.41.</p>
+            <p>Secondly, To them that beleeve it ſignifies, and ſeals their reall and firme union to Ieſus Chriſt, <hi>Rom.</hi> 6.3. <hi>Gal.</hi>
+3.27. <hi>Eph.</hi> 4.5.</p>
+            <p>Thirdly, It ſignifies, and ſeals the Spirituall waſhing of our ſouls from the guilt of ſin. <hi>Act.</hi> 2.38. <hi>Rom.</hi> 4.11. and the imputation of Chriſts righteouſneſſe.</p>
+            <p>Fourthly, it ſignifies and ſeals the waſhing of Regeneration, and renewing of the Holy Ghoſt, 1 <hi>Pet.</hi> 3.21.
+<hi>Tit.</hi> 3.5. <hi>Acts</hi> 13.24. <hi>Mat.</hi> 3.11. <hi>Mar.</hi> 1.8.
+<hi>Luk.</hi> 3.16.</p>
+            <p>Q. <hi>Are all that are Baptized thus waſhed?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No: The grace of God is not tied alwaies<pb facs="tcp:119477:6"/>to the outward ſigne: Thoſe that are not e<g ref="char:EOLhyphen"/>lected have nothing ſealed to them, <hi>Simon Ma<g ref="char:EOLhyphen"/>gus</hi> had the outward Signe, but was not waſhed with the inward grace, <hi>Act.</hi> 8.13.23.</p>
+            <p>Q. <hi>Who be ſo waſhed?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thoſe that believe and repent, <hi>Mar.</hi> 16.16.
+<hi>Acts</hi> 2.38.</p>
+            <p>Q. <hi>What ſhall we think of thoſe that are bap<g ref="char:EOLhyphen"/>tized?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> As all that believe are inwardly waſhed by the Spirit, ſo thoſe that are elected have right to be waſhed in time. But becauſe we can<g ref="char:EOLhyphen"/>not infallibly judge who be elected, and do be<g ref="char:EOLhyphen"/>lieve, we cannot certainly know, who be wa<g ref="char:EOLhyphen"/>ſhed in Baptiſme by the Spirit, 1
+<hi>Cor.</hi> 2.11.</p>
+            <p>Q. <hi>Who is then to be admitted to the Sacra<g ref="char:EOLhyphen"/>ment of Baptiſme?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thoſe are to be Baptized that profeſſe their Faith, repentance and obedience to the Goſpel of Ieſus Chriſt, and their children, <hi>Mat.</hi> 3.6. <hi>Act.</hi> 8.13.38. <hi>Act.</hi> 2.41.</p>
+            <p>Q. <hi>How do you prove that the Infants of Be<g ref="char:EOLhyphen"/>leevers are to be Baptized?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, becauſe all Saints have right to Baptiſme, and children of believing Parents are eſteemed Saints, 2
+<hi>Cor.</hi> 7.14.</p>
+            <p>Secondly, becauſe children are capable of the inward grace, elſe they cannot be ſaved, 3 <hi>Ioh.</hi> 3 36. <hi>Heb.</hi> 12.14.</p>
+            <p>Q. <hi>How prove you by the Word of God that<pb facs="tcp:119477:6"/>they may have the inward Grace?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God promiſes to circumciſe their heart,
+<hi>Deu.</hi> 30.6. Our Saviour ſaith, that of ſuch is the Kingdom of Heaven, <hi>Mat.</hi> 10 14. And <hi>Peter</hi> ſaith, that the Promiſe belongeth to them, <hi>Act.</hi> 2.39.</p>
+            <p>Q. <hi>What Promiſe is that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In the verſe before, the promiſe made to thoſe that are baptized, is the remiſſion of ſins, and the gift of the holy Ghoſt, <hi>Act.</hi> 2.38.</p>
+            <p>Q. <hi>What is the third Reaſon, why children are to be baptized?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God appointed children to be circumci<g ref="char:EOLhyphen"/>ſed,
+<hi>Gen.</hi> 17.12. And Baptiſme is a ſeale of the ſame Covenant of Grace, <hi>Rom.</hi> 4.11. <hi>Act.</hi> 2.38.17. <hi>Gen.</hi> 11.</p>
+            <p>Q. <hi>What is the fourth reaſon?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If children may not be baptized, the Law was more glorious, and full of Grace then the Goſpel; and the children of the
+<hi>Jews</hi> more happy before Chriſt, then the children of Chri<g ref="char:EOLhyphen"/>ſtians under Chriſt; but the Scripture teaches the contrary, 2 <hi>Cor.</hi> 3.8
+9.</p>
+            <p>Q. <hi>What is the fifth reaſon?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> All were baptized in the Red Sea, 1 <hi>Cor.</hi>
+10.2. And we read that whole houſes and fa<g ref="char:EOLhyphen"/>milies were baptized in the Apoſtles time, <hi>Act.</hi> 16.15.33. 1 <hi>Cor.</hi> 1.16.</p>
+            <p>Q. <hi>What do you gather from that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Becauſe no man can ſay, there were no<pb facs="tcp:119477:7"/>children in thoſe families, or that the children were not baptized; therefore we conceive there was ſome children baptized, and we ought not to deny Baptiſme to children.</p>
+            <p>Q <hi>What other reaſon have you?</hi>
+            </p>
+            <p>
+               <hi>A. Mat.</hi> 28.19 Chriſt commanded his A<g ref="char:EOLhyphen"/>poſtles to Baptize all Nations. As God had for<g ref="char:EOLhyphen"/>merly commanded to circumciſe all Iews, and if children had not been to have been baptized our Saviour would have excepted them in that command.</p>
+            <p>Q. <hi>How many ſignes and ſignificant actions are there in the Lords Supper, and what do they ſignifie,</hi>
+            </p>
+            <p>
+               <hi>A.</hi> There be ſix: Firſt, the Materials, bread and wine, which ſignifie the body and blood of Chriſt, <hi>Mat.</hi>
+26.26.28.</p>
+            <p>Secondly, the ſetting theſe ſignes apart for this holy uſe, which ſignifie how Chriſt was ſet apart from eternity for the work of our re<g ref="char:EOLhyphen"/>demption, <hi>Rev.</hi> 13.8. <hi>Ioh.</hi> 10.36.</p>
+            <p>Thirdly, the Bleſſing, the ſignes, which puts us in minde how Chriſt Ieſus bleſſed the bread and the wine, in the firſt inſtitution for this ho<g ref="char:EOLhyphen"/>ly Sacrament; <hi>Mat.</hi> 26.26. 1 <hi>Cor.</hi>
+11.24.</p>
+            <p>And how the Father bleſſed Chriſt in his do<g ref="char:EOLhyphen"/>ings, Offices, and ſufferings to finiſh the work of our Redemption, <hi>Mat,</hi> 1.20.
+<hi>Rom.</hi> 3.29.</p>
+            <p>Fourthly, the breaking of the Bread, and powring forth of the Wine, ſhew how his bo<g ref="char:EOLhyphen"/>dy<pb facs="tcp:119477:7"/>was broken, his blood ſhed, and his ſoule made an offering for our ſins.</p>
+            <p>Fifthly, the giving of the bread and wine, is a token that God offers to the faithfull; re<g ref="char:EOLhyphen"/>ceive Chriſt Ieſus, and the benefit of all that he did and ſuffered, of all his offices, merits and promiſes, of which gift theſe ſignes are a pledge, 1 <hi>Cor.</hi> 10.16.</p>
+            <p>Laſtly, as we take and eat the bread and drink the wine for the nouriſhment of our bo<g ref="char:EOLhyphen"/>dies, ſo ought we to take, and eat the body and blood of Chriſt by Faith, for the nouriſhment of our ſouls, <hi>Ioh.</hi>
+53,54,55,56.63. 1 <hi>Cor.</hi> 10.17.8.</p>
+            <p>Q. <hi>What is it to take Chriſt by Faith in the Sacrament?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To reſt upon God in Chriſt, to make good unto us, or give us the benefit of the doings, ſufferings, offices, merits, and promiſes of Chriſt, and to receive this Sacrament as a pledge, ſigne and ſeale of the Lords engagement, and inten<g ref="char:EOLhyphen"/>tion to do the ſame,
+<hi>Iſa.</hi> 26.3. <hi>Iſa.</hi> 50.10.</p>
+            <p>Q. <hi>Do all receive Chriſt in this Sacrament?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No: Only ſuch as come rightly prepared.</p>
+            <p>Q. <hi>How muſt we prepare our ſelves?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, with knowledge of the doings, ſuf<g ref="char:EOLhyphen"/>ferings, offices, and merits, Laws, promiſes and Sacraments of Chriſt, which is called diſcer<g ref="char:EOLhyphen"/>ning the Lords body, 1 <hi>Cor.</hi> 11.29.</p>
+            <p>Secondly, by due examination of our thoughts, words and actions according to his Laws, and<pb facs="tcp:119477:8"/>taking that courſe which hath been taught to avoid the danger of ſin, 1 <hi>Cor.</hi> 11.28.</p>
+            <p>Thirdly, with true Faith: Firſt, in God the Father, to commit our ſouls to him in his ſon, in his promiſes, co<g ref="char:cmbAbbrStroke">̄</g>mands &amp; Sacraments, as a ſaith<g ref="char:EOLhyphen"/>full Creator, 2 <hi>Pet.</hi> 4.19 <hi>Iſa.</hi> 58.9 1
+<hi>Theſ.</hi> 24.26. Secondly, with Faith in Chriſt, relie upon his doings, ſufferings, offices, and merits, to blot our ſins, and free us from wrath, to make us righteous, and give us a Crown of glory, <hi>Heb.</hi> 8.12.
+1 <hi>Theſ.</hi> 1.10. <hi>Rom.</hi> 3.20,21. 1 <hi>Cor.</hi> 1.30.
+<hi>Phil.</hi> 3.9. <hi>Ioh.</hi> 17.22. <hi>Tim.</hi> 2.48.</p>
+            <p>Q. <hi>What is the act of Faith, required in the offices of Chriſt.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, we muſt reſt upon him as our King,
+<hi>Iſa.</hi> 62.11. <hi>Zach.</hi> 9.9. <hi>Mat.</hi> 2.5. <hi>Mat.</hi>
+25.34.</p>
+            <p>To rule us by the Law of righteouſneſſe, <hi>Heb.</hi>
+1.8.</p>
+            <p>To confirme the charter of the promiſes, 2 <hi>Cor.</hi> 1.20.
+<hi>Heb.</hi> 9.15. <hi>Rom.</hi> 15.8.</p>
+            <p>To ſubdue all our enemies, 1 <hi>Cor.</hi> 15.25.26.</p>
+            <p>To protect us in all our adverſities, 1 <hi>Cor.</hi> 15.57. 1
+<hi>Pet.</hi> 1.5. 1 <hi>Cor.</hi> 10.13. <hi>Heb.</hi> 13.5 6. <hi>Iſa.</hi>
+46.4.</p>
+            <p>Secondly, we muſt reſt upon him as a Prieſt,
+<hi>Hebrews</hi> 6.20. To have offered a ſufficient Sacrifice to ſatisfie for our ſins, 1 <hi>Ioh.</hi> 2.2. To be our Advocate, 1 <hi>Ioh.</hi> 2.1. And to plead for the Pardon of thoſe ſins we confeſſe, judge, and humble our ſelves for, by mouring, repentance, and turning from them.
+<pb facs="tcp:119477:8"/>And to intercede for us, <hi>Heb.</hi> 7.25. <hi>Rom.</hi> 8.34.
+<hi>Rev.</hi> 8.3. And offer up our prayers to his father: Laſtly, we muſt reſt upon him as a Prophet, <hi>Deut.</hi> 18.18. <hi>Act.</hi> 3.22. Not only to it ſtruct us by his Word, and Miniſters, <hi>Act.</hi> 26.18.4.
+<hi>Eph.</hi> 11. But alſo by the unutrerable working of his Spirit in heavenly motions, <hi>Ioh.</hi> 16.13. <hi>Iſa.</hi> 44.3 <hi>Joh.</hi> 5.20.
+<hi>Act.</hi> 3.26. <hi>Eph.</hi> 1.17,18.</p>
+            <p>And by giving us new underſtandings, wills rectified, affections to receive thoſe motions; And to create in our ſoules the image of his heavenly graces, <hi>Ioh.</hi> 1.16. <hi>Rom.</hi> 8.29. <hi>Luk.</hi>
+24.45</p>
+            <p>Q. <hi>What elſe is deſire to come prepared?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To come with reverence to that glorious Majeſtly there preſent, of that holy Ordinance there celebrated &amp; that invaluable grace there offered, <hi>Pſa.</hi> 89.7. <hi>Mat.</hi> 21.37. <hi>Lev.</hi>
+19.30. <hi>Lev.</hi> 26.2. <hi>Heb.</hi> 12.28.</p>
+            <p>Q. <hi>What elſe is required to come prepared?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If in this Sacrament God ſcale the Par<g ref="char:EOLhyphen"/>don of our ſins, deliverance from wrath, and the firme union of his love: It is fitting we ſhould forgive others, lay down thoughts of wrath and revenge, and come together with bowels of compaſſion and love.</p>
+            <p>Q. <hi>How prove you that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God requires theſe things at all times; how much more will he require, we ſhould come cloathed with theſe graces to his table, <hi>Mat.</hi> 6.14,15. 2 <hi>Cor.</hi> 2.7,8. <hi>Ia.</hi> 2.8.
+<hi>Rom.</hi> 12.9,10.<pb facs="tcp:119477:9"/>14.18 20. <hi>Rom.</hi> 13 8. <hi>Coll.</hi>
+3.12. 1 <hi>Ioh.</hi> 3.23.</p>
+            <p>Q. <hi>What is the danger for a man to come un<g ref="char:EOLhyphen"/>prepared?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He may eat and drink unworthily, and ſo eat and drinke his own damnation, 1 <hi>Cor.</hi> 11.29. After unprepared
+<hi>Iudas</hi> eat the ſop, <hi>Satan</hi> entred into him, <hi>Ioh.</hi>
+13.27. He that came to the Lords Table wanting a Wedding Garment, was bound hand and foot, and caſt into utter dark<g ref="char:EOLhyphen"/>neſſe, <hi>Mat.</hi> 22.12.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:119477:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
